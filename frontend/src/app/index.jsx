@@ -5,6 +5,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import AppCarousel from "../components/Slider";
 import SecondAppCarousel from "../components/SecondSlider";
 import ThirdAppCarousel from "../components/ThirdSlider";
+import FourthSlider from "../components/FourthSlider";
 
 export default function Page() {
   return (
@@ -76,7 +77,7 @@ function Content() {
             </View>
 
             <View className="gap-4">
-              <AppCarousel />
+              <FourthSlider />
             </View>
           </View>
         </View>
